@@ -8,5 +8,4 @@ share=(bill/people)*(1+tip/100)
 rounded_share=round(share,2)
 #2
 rounded_share="{:.2f}".format(share)
-
 print(f"Each person should pay {rounded_share}")
